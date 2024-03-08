@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    /*Responsável por alinhar os intens lado a lado dentro do header*/
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 60px;
+    /*tamanho da acaixa */
+    flex-wrap: wrap;
+    /*autoriza a quebrar os itens da imagem numa tela menor*/
+
+}
+
+.header i {
+    font-size: 100px;
+    color: aqua;
+
+
+}
