@@ -32,15 +32,21 @@
     background-color: aqua;
     border-radius: 3dvh;
 }
-.menu {
-    display: flex;
-}
 
 
-
-.menu {
+.menu li {
+    list-style: none;
     margin-left: 10px;
 }
+
+.menu {
+    display: flex;
+    margin-left: 10px;
+}
+
+
+
+
 
 h1 {
     text-align: center;
@@ -74,7 +80,44 @@ flex: 1 1 200px;/* */
     text-align: center;
     padding: 50px;
 }
+.rodape{
+    background-color: aqua;
+    padding: 40px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.list-rodape{
+    display: flex;
+}
 
+
+
+ .list-rodape li a {
+    text-decoration: none;
+    color: blue;
+    font: 20px;
+
+ }
+
+ .list-rodape li {
+    list-style: none;
+    margin-right: 10px;
+ }
+
+ .list-rodape a:hover {
+    color: white;
+    transition: 1s;
+ }
+ .rodape i {
+    color: aqua;
+    font-size: 25px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+ 
 
 
 
